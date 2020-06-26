@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color: rgb(211, 211, 211);
+}
+
+h1{
+	color: white;
+}
+
+.main{
+	position: absolute;
+	width: 400px;
+	background-color: rgb(58, 58, 58);
+	height: 700px;
+	left: 50%;
+	margin-left: -200px;
+	text-align: center;
+	border-radius: 10px;
+}
+#gamebox{
+	width: 350px;
+	height: 500px;
+	background-image: url("../assets/background.png");
+	margin-top: 10px;
+	margin-left: 25px;
+}
+
+/* #ammo{
+	width: 350px;
+	height: 500px;
+	background-image: url("../assets/background.png");
+	margin-top: 10px;
+	margin-left: 25px;
+} */
+
+.start{
+	padding: 5px 20px 5px 20px;
+	border: none;
+	outline: none;
+	border-radius: 10px;
+	position: absolute;
+	margin-top: 30px;
+	font-size: 2rem;
+	margin-left: -84px;
+}
+.start:hover{
+	background-color: rgb(240, 240, 240);
+}
+
+.score{
+	position: absolute;
+	left: 410px;
+	top: 300px;
+	font-size: 1.5rem;
+	width: 200px;
+	text-align: left;
+}
+.level{
+	position: absolute;
+	left: 410px;
+	top: 260px;
+	font-size: 1.5rem;
+	width: 200px;
+	text-align: left;
+}
+
+.note{
+	position: absolute;
+	background-color: rgb(83, 83, 83);
+	color: white;
+	border-radius: 10px;
+	text-align: center;
+	padding: 20px;
+	width: 300px;
+	left: -350px;
+	top: 100px;
+}

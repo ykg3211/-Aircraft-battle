@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>飞机大战</title>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <div class="main">
+      <div><h1>飞机大战</h1></div>
+      <div class="score">
+        <p>Score: <span id="score">0</span></p>
+      </div>
+      <div class="level">
+        <p>第 <span id="level">0</span> 关</p>
+      </div>
+      <div id="ammobox" class="allAmmo"></div>
+      <div id="enemybox" class="allenemy"></div>
+      <div id="gamebox">
+        
+      </div>
+      <button id="start" class="start" onclick="game.start()">
+        开始游戏
+      </button>
+      <div class="note">
+        <p>点击开始游戏即可开始游戏</p>
+        <p>拖动鼠标控制飞机</p>
+        <p>小飞机：20分；Boss：50分</p>
+        <p>每增加100分则自动进入下一关</p>
+        <p>每关的敌机平均速度变快，敌机密度逐渐上升</p>
+        <p>当达到第5关时，将会有三成几率出现Boss，血量是小敌机的2倍</p>
+        <p>当达到第10关时，所有的敌机血量翻倍到，小敌机：2血；Boss：4血</p>
+      </div>
+    </div>
+    <audio src="assets/background.mp3" id="audio" controls="controls" loop="true" hidden="true">
+
+    <script src="javascript/main.js"></script>
+  </body>
+</html>
